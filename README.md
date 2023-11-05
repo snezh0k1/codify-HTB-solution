@@ -1,7 +1,8 @@
 # codify-HTB-solution
 For Reverse Shell
 
-'''
+'
+
 const {VM} = require("vm2");
 const vm = new VM();
 
@@ -25,4 +26,5 @@ try {
 `
 
 console.log(vm.run(code));
-'''
+
+'
